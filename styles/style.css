@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #1F2235;
+    padding: 33px 270px;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 26px;
+    text-align: center;
+}
+
+.brand-logo {
+    height: 25px;
+}
+
+.header-list {
+    list-style-type: none;
+    padding: 0 20px;
+}
+#nav-bar {
+    margin-left: 200px;}
+.header-list a {
+    text-decoration: none;
+}
+.header-list a:hover {
+color: #FF4A57;
+}

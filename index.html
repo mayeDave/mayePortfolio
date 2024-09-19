@@ -13,7 +13,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
 </head>
-
 <body>
     <!-- header part -->
     <header class="flex-container">
@@ -34,11 +33,11 @@
     <!-- main part -->
     <main>
         <!-- home section -->
-        <section id="home">
+        <section id="home" class="flex-container">
             <div id="left-box">
                 <!-- social icons -->
 
-                <div>
+                <div class="icon-container">
                     <div class="social-icon">
                         <i class="fa-brands fa-facebook"></i>
                     </div>
@@ -54,24 +53,22 @@
                     <div class="social-icon">
                         <i class="fa-brands fa-snapchat"></i>
                     </div>
-                    <div class="social-icon">
-                        <i class="fa-brands fa-web-awesome"></i>
-                    </div>
+                    
 
                 </div>
 
                 <!-- text content -->
-                <h1>Hi, I'm <span>David</span></h1>
-                <p>I'm David a professional web developer with long time experience in this field</p>
+                <h1 id="home-heading">I am Maye David</h1>
+                <p id="home-para">I'm David a professional web developer with long time experience in this field</p>
 
                 <!-- cta button -->
-                <div>
-                    <button>My Portfolio</button>
-                    <button><i class="fa-solid fa-play"></i></button>
+                <div id="home-button">
+                    <button class="cta-button">My Portfolio</button>
+                    <div id="play-button"><button id="play"><i class="fa-solid fa-play"></i></button></div>
                 </div>
             </div>
             <div id="right-box">
-                <img src="./images/man-01.png" alt="Maye Picture">
+                <img src="./images/man-01.png" alt="Maye Picture" id="home-img">
             </div>
         </section>
 

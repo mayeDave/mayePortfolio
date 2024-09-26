@@ -251,6 +251,108 @@ margin-top: 30px;
     margin-bottom: 20px;
 }
 
+/* skills style */
+
+#skills {
+    padding: 100px 270px;
+    background-color: #1F2235;
+}
+
+#skills-left-box {
+    width: 40%;
+}
+
+#skills-right-box {
+    width: 55%;
+    padding: 0 40px;
+    margin-top: 50px;
+}
+
+.red {
+    color: #FF4A57;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+#hire-button-box {
+    padding: 20px 0;
+}
+
+#nd-progress-bar {
+    width: 100%;
+    background-color: #24263B;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 5px;
+  }
+  #nd-progress-bar-inner {
+    width: 88%;
+    height: 100%;
+    background-color: #FF4A57;
+    transition: width 0.5s;
+  }
+
+  #py-progress-bar {
+    width: 100%;
+    background-color: #24263B;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 5px;
+  }
+  #py-progress-bar-inner {
+    width: 81%;
+    height: 100%;
+    background-color: #FF4A57;
+    transition: width 0.5s;
+  }
+
+  #la-progress-bar {
+    width: 100%;
+    background-color: #24263B;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 5px;
+  }
+  #la-progress-bar-inner {
+    width: 70%;
+    height: 100%;
+    background-color: #FF4A57;
+    transition: width 0.5s;
+  }
+
+  #se-progress-bar {
+    width: 100%;
+    background-color: #24263B;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 5px;
+  }
+  #se-progress-bar-inner {
+    width: 90%;
+    height: 100%;
+    background-color: #FF4A57;
+    transition: width 0.5s;
+  }
+
+  .rate-box {
+    height: 30px;
+    width: 50px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+  }
+
+  .skills-rate-box {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+
+
+
 
 
 

@@ -8,33 +8,36 @@
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/9dc47be558.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
 </head>
-
 <body>
     <!-- header part -->
-    <header>
-        <div id="brand"><img src="./images/logo (1).png" alt="maye logo" id="brand-logo"></div>
+    <header class="flex-container">
+        <div id="brand"><img src="./images/logo (1).png" alt="maye logo" class="brand-logo"></div>
 
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
+    <nav id="nav-bar">
+            <ul class="flex-container">
+                <li class="header-list"><a href="#home">Home</a></li>
+                <li class="header-list"><a href="#about">About</a></li>
+                <li class="header-list"><a href="#services">Services</a></li>
+                <li class="header-list"><a href="#skills">Skills</a></li>
+                <li class="header-list"><a href="#portfolio">Portfolio</a></li>
+                <li class="header-list"><a href="#blog">Blog</a></li>
+                <li class="header-list"><a href="#contact">Contact</a></li>
         </nav>
     </header>
 
     <!-- main part -->
     <main>
         <!-- home section -->
-        <section id="home">
+        <section id="home" class="flex-container">
             <div id="left-box">
                 <!-- social icons -->
 
-                <div>
+                <div class="icon-container">
                     <div class="social-icon">
                         <i class="fa-brands fa-facebook"></i>
                     </div>
@@ -50,83 +53,70 @@
                     <div class="social-icon">
                         <i class="fa-brands fa-snapchat"></i>
                     </div>
-                    <div class="social-icon">
-                        <i class="fa-brands fa-web-awesome"></i>
-                    </div>
+                    
 
                 </div>
 
                 <!-- text content -->
-                <h1>Hi, I'm <span>David</span></h1>
-                <p>I'm David a professional web developer with long time experience in this field</p>
+                <h1 class="section-heading">I am Maye David</h1>
+                <p id="home-para">I'm David a professional web developer with long time experience in this field</p>
 
                 <!-- cta button -->
-                <div>
-                    <button>My Portfolio</button>
-                    <button><i class="fa-solid fa-play"></i></button>
+                <div id="home-button">
+                    <button class="cta-button">My Portfolio</button>
+                    <div id="play-button"><button id="play"><i class="fa-solid fa-play"></i></button></div>
                 </div>
             </div>
             <div id="right-box">
-                <img src="./images/man-01.png" alt="Maye Picture">
+                <img src="./images/david nobg.png" alt="Maye Picture" id="home-img">
             </div>
         </section>
 
         <!-- services section -->
         <section id="services">
-            <div id="top-box">
-                <h5>Services</h5>
-                <h2>My Services</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam aperiam facere dolores,
-                    necessitatibus nemo quia inventore beatae quasi suscipit amet eaque magnam. Tempore ipsa sequi
-                    perferendis, id tenetur quae nesciunt.</p>
+            <div id="top-box" class="col-content">
+                <h5 class="small-title">SERVICES</h5>
+                <h2 class="section-heading">My Services</h2>
+                <p class="section-para">Lorem ipsum dolor, sit amet conse adipisicing elit. Laboriosam aperiam facere dolores, accusamunt.</p>
+                    <hr class="divider">
             </div>
-            <div id="bottom-box">
+            
+            <div id="bottom-box" class="col-content">
+
                 <div class="service-card">
                     <i class="fa-brands fa-github"></i>
                     <h3>Web Development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veniam, aut, quae non ipsa illo
-                        voluptate cupiditate nemo commodi possimus exercitationem molestias distinctio laborum assumenda
-                        saepe eligendi hic maiores officiis!</p>
+                    <p class="para">Lorem ipsum dolor sit amet conse adipisicing elit. Officia veniam, aut, quae non ipsa ills!</p>
                 </div>
 
-                <div class="service-card"></div>
+                <div class="service-card">
                 <i class="fa-solid fa-palette"></i>
                 <h3>Web Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veniam, aut, quae non ipsa illo
-                    voluptate cupiditate nemo commodi possimus exercitationem molestias distinctio laborum assumenda
-                    saepe eligendi hic maiores officiis!</p>
+                <p class="para">Lorem ipsum dolor sit amet conse adipisicing elit. Officia veniam, aut, quae non ipsa illo</p>
                 </div>
 
-                <div class="service-card"></div>
+                <div class="service-card">
                 <i class="fa-solid fa-video"></i>
                 <h3>Video Editing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veniam, aut, quae non ipsa illo
-                voluptate cupiditate nemo commodi possimus exercitationem molestias distinctio laborum assumenda saepe
-                eligendi hic maiores officiis!</p>
+                <p class="para">Lorem ipsum dolor sit amet conse adipisicing elit. Officia veniam, aut, quae non ipsa ill</p>
                 </div>
 
-                <div class="service-card"></div>
+                <div class="service-card">
                 <i class="fa-solid fa-photo-film"></i>
                 <h3>Photography</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veniam, aut, quae non ipsa illo
-                voluptate cupiditate nemo commodi possimus exercitationem molestias distinctio laborum assumenda saepe
-                eligendi hic maiores officiis!</p>
+                <p class="para">Lorem ipsum dolor sit amet conse adipisicing elit. Officia veniam, aut, quae non ipsa ill!</p>
                 </div>
 
-                <div class="service-card"></div>
+                <div class="service-card">
                 <i class="fa-brands fa-app-store"></i>
                 <h3>App Developing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veniam, aut, quae non ipsa illo
-                voluptate cupiditate nemo commodi possimus exercitationem molestias distinctio laborum assumenda saepe
-                eligendi hic maiores officiis!</p>
+                <p class="para">Lorem ipsum dolor sit amet conse adipisicing elit. Officia veniam, aut, quae non ipsa ill!</p>
                 </div>
 
-                <div class="service-card"></div>
+                <div class="service-card">
                 <i class="fa-solid fa-gamepad"></i>
                 <h3>Game Developer</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veniam, aut, quae non ipsa illo
-                voluptate cupiditate nemo commodi possimus exercitationem molestias distinctio laborum assumenda saepe
-                eligendi hic maiores officiis!</p>
+                <p class="para">Lorem ipsum dolor sit amet conse adipisicing elit. Officia veniam, aut, quae non ipsa ill!</p>
                 </div>
 
             </div>
@@ -134,29 +124,29 @@
         </section>
         <!-- about section -->
         <section id="about">
-            <div id="about-top-box">
-                <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque mollitia minus nesciunt nisi vel animi accusantium totam cupiditate, voluptatibus facere.</p>
-                <hr>
+            <div id="about-top-box" class="col-content">
+                <h2 class="section-heading">About Me</h2>
+                <p class="section-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque mollitia minus nesciunt nisi vel animi accusantium totam cupiditate, voluptatibus facere.</p>
+                <hr class="divider">
             </div>
 
-            <div id="about-bottom-box">
+            <div id="about-bottom-box" class="flex-container">
                 <div id="image-box">
                     <img src="./images/man 02.png" alt="maye 2nd image">
                 </div>
                     
                 <div id="info-box">
                     <h3>Hi There</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolor deserunt enim! Ducimus atque ex veniam commodi exercitationem ullam repellendus rem nesciunt, tempore odit? Dicta nesciunt incidunt porro officiis cumque.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro saepe aliquid, delectus eos sit qui libero beatae voluptas odit? Culpa?</p>
+                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolor deserunt enim! Ducimus atque ex veniam commodi exercitationem ullam repellendus rem nesciunt, tempore odit? Dicta nesciunt incidunt porro officiis cumque.</p>
+                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro saepe aliquid, delectus eos sit qui libero beatae voluptas odit? Culpa?</p>
 
-                    <div id="biodata">
-                        <div id="name">Name: <br>Olorunmaye David</div>
-                        <div id="phone">Phone: <br>+234 901 241 1554</div>
+                    <div id="biodata" class="flex-container clumsy">
+                        <div id="name"><span class="small-title">Name:</span> <br>Olorunmaye David</div>
+                        <div id="phone"><span class="small-title">Phone:</span> <br>+234 901 241 1554</div>
                     </div>
-                    <div id="biodata">
-                        <div id="email">Email: <br>olorunmayedavid1234@gmail.com</div>
-                        <div id="linkedin">Linkedin: <br>Olorunmayedavid-1234</div>
+                    <div id="biodata" class="flex-container clumsy">
+                        <div id="email"><span class="small-title">Email:</span> <br>olorunmayedavid1234@gmail.com</div>
+                        <div id="linkedin"><span class="small-title">Linkedin:</span> <br>Olorunmayedavid-1234</div>
                     </div>
                 </div>
             </div>
@@ -164,52 +154,68 @@
         </section>
         <!-- skills section -->
         <section id="skills">
-            <div id="skills-box">
+            <div id="skills-box" class="flex-container">
 
                 <div id="skills-left-box">
-                    <h5>I'M AN EXPERT ON</h5>
-                    <h2>Let's Work <br>Together</h2>
-                    <p>Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci sit amet vestibulum facilisis.</p>
-                    <div id="Hire-button-box">
-                    <button id="Hire"><a href="#">Hire Me Now</a></button>
+                    <p class="red">I'M AN EXPERT ON</p>
+                    <h2 class="section-heading">Let's Work Together</h2>
+                    <p class="para">Phasellus enim libero, blandit vel sapien vitae, condime ultricies magna et. Quisque euismod orci sit amet vestibulum facilisis blandit vel sapien vitae, condime ultricies magna et. Quisque euismod orci sit.</p>
+                    <div id="hire-button-box">
+                    <a href="#"><button id="Hire" class="cta-button">Hire Me Now</button></a>
                     </div>
                 </div>
 
                 <div id="skills-right-box">
-                    <div id="skills-rate-box">
-                        <div id="skill-name">
-                            <p>Node.JS</p>
+                    <div class="skills-rate-box flex-container clumsy">
+                        <div id="skill-name" style="width: 88%;">
+                            <p class="bold">Node.JS</p>
                         </div>
                         <div id="skill-rate">
-                            <p>88%</p>
+                            <div class="rate-box"><p class="para">88%</p></div>
                         </div>
                     </div>
 
-                    <div id="skills-rate-box">
-                        <div id="skill-name">
-                            <p>Python</p>
+                    <div id="nd-progress-bar">
+                        <div id="nd-progress-bar-inner"></div>
+                    </div>
+
+                    <div class="skills-rate-box flex-container clumsy">
+                        <div id="skill-name" style="width: 81%;">
+                            <p class="bold">Python</p>
                         </div>
                         <div id="skill-rate">
-                            <p>81%</p>
+                            <div class="rate-box"><p class="para">81%</p></div>
                         </div>
                     </div>
 
-                    <div id="skills-rate-box">
-                        <div id="skill-name">
-                            <p>Laravel</p>
+                    <div id="py-progress-bar">
+                        <div id="py-progress-bar-inner"></div>
+                    </div>
+
+                    <div class="skills-rate-box flex-container clumsy">
+                        <div id="skill-name" style="width: 70%;">
+                            <p class="bold">Laravel</p>
                         </div>
                         <div id="skill-rate">
-                            <p>70%</p>
+                            <div class="rate-box"><p class="para">70%</p></div>
                         </div>
                     </div>
 
-                    <div id="skills-rate-box">
-                        <div id="skill-name">
-                            <p>SEO</p>
+                    <div id="la-progress-bar">
+                        <div id="la-progress-bar-inner"></div>
+                    </div>
+
+                    <div class="skills-rate-box flex-container clumsy">
+                        <div id="skill-name" style="width: 90%;">
+                            <p class="bold">SEO</p>
                         </div>
                         <div id="skill-rate">
-                            <p>90%</p>
+                            <div class="rate-box"><p class="para">90%</p></div>
                         </div>
+                    </div>
+
+                    <div id="se-progress-bar">
+                        <div id="se-progress-bar-inner"></div>
                     </div>
 
                 </div>
@@ -220,147 +226,167 @@
         <!-- portfolio section -->
         <section id="portfolio">
 
-            <div id="portfolio-head">
-                <h2>Portfolio Showcase</h2>
-                <p>We're a WordPress Theme development company. With more than ten years of knowledge and expertise.</p>
-                <hr>
-            </div>
-            <div id="portfolio-list">
+            <div id="portfolio-main">
+
+                    <div id="portfolio-head" class="col-content">
+                        <h2 class="section-heading"><span class="special">Portfolio <br>Showcase</span></h2>
+                        <p class="section-para">We're a WordPress Theme development company. With more than ten years of knowledge and expertise.</p>
+                        <hr class="divider">
+                    </div>
+                <div id="portfolio-list" class="center flex-container clumsy">
                 
-                <button><a href="#">All Works</a></button>
-                <button><a href="#">Art Direction</a></button>
-                <button><a href="#">Branding</a></button>
-                <button><a href="#">Design</a></button>
-                <button><a href="#">web</a></button>
+                    <a href="#"><button class="ta-button main-button">All Works</button></a>
+                    <a href="#"><button class="ta-button">Art Direction</button></a>
+                    <a href="#"><button class="ta-button">Branding</button></a>
+                    <a href="#"><button class="ta-button">Design</button></a>
+                    <a href="#"><button class="ta-button">web</button></a>
                 
-            </div>
-            <br>
-            <div id="portfolio-images-box">
-                <div id="portfolio-images">
-                    <img src="./images/all works/work1.jpg" alt="img1">
-                    <img src="./images/all works/work2.jpg" alt="img2">
-                    <img src="./images/all works/work3.jpg" alt="img3">
                 </div>
-                <div id="portfolio-images">
-                    <img src="./images/all works/work4.jpg" alt="img4">
-                    <img src="./images/all works/work5.jpg" alt="img5">
+                <br>
+                <div id="portfolio-images-box" class="flex-container">
+                    <div class="portfolio-images column flex">
+                        <img src="./images/all works/work1.jpg" alt="img1">
+                        <img src="./images/all works/work2.jpg" alt="img2">
+                        <img src="./images/all works/work3.jpg" alt="img3">
+                    </div>
+                    <div class="portfolio-images column flex">
+                        <img src="./images/all works/work4.jpg" alt="img4">
+                        <img src="./images/all works/work5.jpg" alt="img5">
                     
-                </div>
-                <div id="portfolio-images">
-                    <img src="./images/all works/work6.jpg" alt="img6">
-                    <img src="./images/all works/work7.jpg" alt="img7">
-                    <img src="./images/all works/work8.jpg" alt="img8">
-                </div>
-
-            </div>
-
-            <div id="pricing-header">
-                <h5>Choose a Plan</h5>
-                <h2>Pricing Plan</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla possimus deleniti sit voluptate excepturi error aut voluptates accusantium. Ab, illum.</p>
-                <hr>
-            </div>
-
-            <div id="pricing-box">
-                <div id="basic-price">
-                    <h4>Basic</h4>
-                    <h2>$50</h2>
-                    <p>5GB Storage Space</p>
-                    <hr>
-                    <p>20GB Monthly Bandwidth</p>
-                    <hr>
-                    <p>My SQL Databases</p>
-                    <hr>
-                    <p>100 Email Account</p>
-                    <hr>
-                    <p>10 Free Domain Names</p>
-                    <hr>
-                    <div id="purchase-button">
-                        <button><a href="#">Purchase</a></button>
                     </div>
+                    <div class="portfolio-images column flex">
+                        <img src="./images/all works/work6.jpg" alt="img6">
+                        <img src="./images/all works/work7.jpg" alt="img7">
+                        <img src="./images/all works/work8.jpg" alt="img8">
+                    </div>
+
                 </div>
 
-                <div id="standard-price">
+            </div>
+
+            <div id="pricing">
+                <div id="pricing-header" class="col-content">
+                <h5 class="small-title">Choose a Plan</h5>
+                <h2 class="section-heading">Pricing Plan</h2>
+                <p class="section-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla possimus deleniti sit voluptate excepturi error aut voluptates accusantium. Ab, illum.</p>
+                <hr class="divider">
+                </div>
+            
+                <div id="pricing-box" class="flex-container">
+                    <div id="basic-price" class="price-list col-content">
+                    <p class="price-head">Basic</p>
+                    <p><span class="material-symbols-outlined">
+                        attach_money
+                        </span><span class="cash">50</span></p>
+                    <p class="para">5GB Storage Space</p>
+                    <hr class="long-div">
+                    <p class="para">20GB Monthly Bandwidth</p>
+                    <hr class="long-div">
+                    <p class="para">My SQL Databases</p>
+                    <hr class="long-div">
+                    <p class="para">100 Email Account</p>
+                    <hr class="long-div">
+                    <p class="para">10 Free Domain Names</p>
+                    <hr class="long-div">
+                    <div id="purchase-button">
+                        <a href="#"><button class="cta-button">Purchase</button></a>
+                    </div>
+                    </div>
+
+                    <div id="standard-price" class="price-list col-content">
                     <div id="recommended-box">Recommended</div>
-                    <h4>Standard</h4>
-                    <h2>$80</h2>
-                    <p>5GB Storage Space</p>
-                    <hr>
-                    <p>20GB Monthly Bandwidth</p>
-                    <hr>
-                    <p>My SQL Databases</p>
-                    <hr>
-                    <p>100 Email Account</p>
-                    <hr>
-                    <p>10 Free Domain Names</p>
-                    <hr>
+                    <p class="price-head">Standard</p>
+                    <p><span class="material-symbols-outlined">
+                        attach_money
+                        </span><span class="cash">80</span></p>
+                    <p class="para">5GB Storage Space</p>
+                    <hr class="long-div">
+                    <p class="para">20GB Monthly Bandwidth</p>
+                    <hr class="long-div">
+                    <p class="para">My SQL Databases</p>
+                    <hr class="long-div">
+                    <p class="para">100 Email Account</p>
+                    <hr class="long-div">
+                    <p class="para">10 Free Domain Names</p>
+                    <hr class="long-div">
                     <div id="purchase-button">
-                        <button><a href="#">Purchase</a></button>
+                        <a href="#"><button class="cta-button">Purchase</button></a>
+                    </div>
+                    </div>
+
+                    <div id="premium-price" class="price-list col-content">
+                        <p class="price-head">Premium</p>
+                        <p><span class="material-symbols-outlined">
+                            attach_money
+                            </span><span class="cash">160</span></p>
+                        <p class="para">5GB Storage Space</p>
+                        <hr class="long-div">
+                        <p class="para">20GB Monthly Bandwidth</p>
+                        <hr class="long-div">
+                        <p class="para">My SQL Databases</p>
+                        <hr class="long-div">
+                        <p class="para">100 Email Account</p>
+                        <hr class="long-div">
+                        <p class="para">10 Free Domain Names</p>
+                        <hr class="long-div">
+                        <div id="purchase-button">
+                            <a href="#"><button class="cta-button">Purchase</button></a>
+                        </div>
                     </div>
                 </div>
 
-                <div id="premium-price">
-                    <h4>Premium</h4>
-                    <h2>$160</h2>
-                    <p>5GB Storage Space</p>
-                    <hr>
-                    <p>20GB Monthly Bandwidth</p>
-                    <hr>
-                    <p>My SQL Databases</p>
-                    <hr>
-                    <p>100 Email Account</p>
-                    <hr>
-                    <p>10 Free Domain Names</p>
-                    <hr>
-                    <div id="purchase-button">
-                        <button><a href="#">Purchase</a></button>
-                    </div>
-                </div>
-            </div>
-            <div id="achievement-box">
-                <div id="clients">
+            </div>  
+            
+            <div id="achievements">
+                <div id="achievement-box" class="flex-container">
+                    <div id="clients" class="achievement col-content">
                     <i class="fa-solid fa-people-group"></i>
-                    <h2>47</h2>
+                    <h2 class="red">47</h2>
                     <p>Clients</p>
-                </div>
-                <div id="projects">
+                    </div>
+                    <div id="projects" class="achievement col-content">
                     <i class="fa-solid fa-diamond"></i>
-                    <h2>64</h2>
+                    <h2 class="red">64</h2>
                     <p>Projects</p>
-                </div>
-                <div id="awards">
+                    </div>
+                    <div id="awards" class="achievement col-content">
                     <i class="fa-solid fa-award"></i>
-                    <h2>16</h2>
+                    <h2 class="red">16</h2>
                     <p>Awards</p>
-                </div>
-                <div id="years-experience">
+                    </div>
+                    <div id="years-experience" class="achievement col-content">
                     <i class="fa-brands fa-github"></i>
-                    <h2>10</h2>
+                    <h2 class="red">10</h2>
                     <p>Years Experience</p>
+                    </div>
                 </div>
-            </div>
+            </div>    
 
-            <div id="testimonial-box">
+            <div id="testimonial-box" class="flex-container">
                 <div id="testimonial">
-                    <h5>OUR TESTIMONIALS</h5>
-                    <h2>Happy Client <br>Says</h2>
-                    <p>Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci sit amet vestibulum facilisis.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta asperiores vero sed tenetur ex reiciendis, quos aperiam magnam.</p>
-                    <button><a href="#">Learn More</a></button>
+                    <p class="red">OUR TESTIMONIALS</p>
+                    <h2 class="section-heading">Happy Client Says</h2>
+                    <p class="para">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci sit amet vestibulum facilisis.</p>
+                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta asperiores vero sed tenetur ex reiciendis, quos aperiam magnam.</p>
+                    <a href="#"><button class="cta-button">Learn More</button></a>
                 </div>
                 <div id="testimonial-quote">
                     <div id="quote">
-                    <blockquote>
-                        <i class="fa-solid fa-quote-right"></i>
-                        "In promotion and of advertising testimonial <br>show consists of a person's written or spoken <br>statement extolling the virtue"
-                        <br>
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <blockquote class="flex-container">
+                        <div><i class="fa-solid fa-quote-right big-quote"></i></div>
+                        <div id="quote-text">
+                            <p>"In promotion and of advertising testimonial show consists of a person's written or spoken statement extolling the virtue"</p>
+                                <br>
+                                <i class="fa-solid fa-star red"></i><i class="fa-solid fa-star red"></i><i class="fa-solid fa-star red"></i><i class="fa-solid fa-star red"></i><i class="fa-solid fa-star red"></i>
+                            
+                        </div>
+                        
                     </blockquote>
                     </div>
 
                     <div id="founder-main">
                         <div id="founder">
-                            <div id="founder-img"><img src="./images/all works/founder.jpg" alt="co founder"></div>
+                            <div id="founder-img"><img src="./images/all works/founder.jpg" alt="co founder" class="founder"></div>
                             <div id="founder-name">
                                 <p><b>Emaley Mcculloch</b><br>Founder of Woo</p>
                             </div>
@@ -385,40 +411,40 @@
         </section>
         <!-- blog section -->
         <section id="blog">
-            <div id="blog-top-box">
-                <h5>Latest Post</h5>
-                <h2>Latest blog</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit exercitationem vitae expedita recusandae accusamus iure veniam, eveniet itaque excepturi pariatur temporibus similique dolores quisquam dolorem esse a perspiciatis explicabo assumenda.</p>
+            <div id="blog-top-box" class="col-content">
+                <h5 class="small-title">Latest Post</h5>
+                <h2 class="section-heading">Latest blog</h2>
+                <p class="section-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit exercitationem vitae expedita recusandae accusamus iure veniam, eveniet itaque excepturi pariatur temporibus similique dolores quisquam dolorem esse a perspiciatis explicabo assumenda.</p>
                 <hr>
             </div>
             <div id="blog-bottom-box">
-                <div id="blog1">
-                    <div id="blog-image">
+                <div id="blog1" class="blog">
+                    <div class="blog-image">
                         <img src="./images/blog/blog1.jpg" alt="blog1">
                     </div>
-                    <div id="blog-text">
+                    <div class="blog-text">
                         <p><i class="fa-solid fa-user"></i> By admin <span><i class="fa-solid fa-calendar-days"></i> Tuesday </span><span><i class="fa-solid fa-comment"></i> 3 </span></p>
                         <h4>Ten Secrets You Will Not Want To Know</h4>
                         <button><a href="#">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a></button>
                     </div>
                 </div>
 
-                <div id="blog2">
-                    <div id="blog-image">
+                <div id="blog2" class="blog">
+                    <div class="blog-image">
                         <img src="./images/blog/blog2.jpg" alt="blog2">
                     </div>
-                    <div id="blog-text">
+                    <div class="blog-text">
                         <p><i class="fa-solid fa-user"></i> By admin <span><i class="fa-solid fa-calendar-days"></i> Wednesday </span><span><i class="fa-solid fa-comment"></i> 3 </span></p>
                         <h4>You've gotta dance like there's nobody watching</h4>
                         <button><a href="#">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a></button>
                     </div>
                 </div>
 
-                <div id="blog3">
-                    <div id="blog-image">
+                <div id="blog3" class="blog">
+                    <div class="blog-image">
                         <img src="./images/blog/blog3.jpg" alt="blog3">
                     </div>
-                    <div id="blog-text">
+                    <div class="blog-text">
                         <p><i class="fa-solid fa-user"></i> By admin <span><i class="fa-solid fa-calendar-days"></i> Saturday </span><span><i class="fa-solid fa-comment"></i> 3 </span></p>
                         <h4>I must explain to you how all these mistaken idea</h4>
                         <button><a href="#">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a></button>
@@ -428,14 +454,14 @@
         </section>
         <!-- contact section -->
         <section id="contact">
-            <div id="contact-header-box">
-                <h5>HAVE ANY QUERY?</h5>
-                <h2>Contact Me</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio quis consequuntur aliquam veniam sint ipsam totam voluptas optio, aliquid non!</p>
-                <hr>
+            <div id="contact-header-box" class="col-content">
+                <h5 class="small-title">HAVE ANY QUERY?</h5>
+                <h2 class="section-heading">Contact Me</h2>
+                <p class="section-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio quis consequuntur aliquam veniam sint ipsam totam voluptas optio, aliquid non!</p>
+                <hr class="divider">
             </div>
             <div id="contact-main-box">
-                <div id="location">
+                <div id="location" class="contact">
                     <div id="location-icon">
                         <span class="material-symbols-outlined">
                             location_on
@@ -447,7 +473,7 @@
                     </div>
                     
                 </div>
-                <div id="call">
+                <div id="call" class="contact">
                     <div id="call-icon">
                         <span class="material-symbols-outlined">
                             call
@@ -459,7 +485,7 @@
                     </div>
                     
                 </div>
-                <div id="mail">
+                <div id="mail" class="contact">
                     <div id="mail-icon">
                         <span class="material-symbols-outlined">
                             mail
